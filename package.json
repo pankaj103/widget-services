@@ -1,0 +1,21 @@
+{
+  "name": "widget-services",
+  "version": "1.0.0",
+  "description": "widget API",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Pankaj Upreti",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.5.1",
+    "asyncawait": "^1.0.7",
+    "aws-sdk": "^2.224.1",
+    "middy": "^0.15.7",
+    "uuid": "^3.2.1"
+  }
+}
