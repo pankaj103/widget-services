@@ -1,6 +1,12 @@
 ## Synopsis
 
-This is a lambda based implementation of micro service layer
+This is a lambda based implementation of micro service layer for performing CRUD operations on a hypothetical object named Widget. User can download this repository and make necessary changes. Objective is to provide a boilerplate template to put together a microservice layer.
+
+This implementation is based on AWS Lambda. The DB used is DynamoDB and Serverless framework is used for Dev Ops automation.
+
+The set up provided in serverless.yml will also generate an API Gateway API. The API will be secured by an OAUTH token sent in header.
+
+The implementation also includes a authorizer that uses online call to cognito user pool to validate the token.
 
 ## Motivation
 
